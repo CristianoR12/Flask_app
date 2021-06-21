@@ -4,11 +4,11 @@ import mysql.connector
 app = Flask(__name__)
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  password="Psw_123456#!",
-  database="new_db_test",
-  auth_plugin='mysql_native_password'
+  host="yout_host",
+  user="your_user",
+  password="your_password",
+  database="your_database",
+  auth_plugin='your_auth_plugin'
 )
 
 db = mydb.cursor() 
